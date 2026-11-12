@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Görüşme planla",
+          "en": "Book a meeting",
+          "ar": "احجز اجتماعًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "saas-hero-pano.webp",
+        "img": "sanayi-makine-1.webp",
         "video": "",
         "poster": "",
         "alt": "Vira Ar-Ge",
@@ -1538,25 +1549,25 @@
           "ar": "نموذج أولي واختبار"
         },
         "title": {
-          "tr": "Fikri ürüne bağlayan ekibiz",
-          "en": "We are the team that ties idea to product",
-          "ar": "نحن الفريق الذي يربط الفكرة بالمنتج"
+          "tr": "Fikri ürüne dönüştüren ekip",
+          "en": "The team that turns an idea into a product",
+          "ar": "الفريق الذي يحوّل الفكرة إلى منتج"
         },
         "metin": {
-          "tr": "Vira ArGe, donanım ve yazılım prototiplerini laboratuvarda test eder. Görseller temsilidir; tüm veriler kurgusaldır.",
-          "en": "Vira rnd tests hardware and software prototypes in the laboratory. Images are representative and all data is fictional.",
-          "ar": "تختبر فيرا للنماذج الأولية نماذج العتاد والبرمجيات في المختبر. الصور تمثيلية وجميع البيانات افتراضية."
+          "tr": "Vira Ar-Ge, donanım ve yazılım prototiplerini kendi laboratuvarında geliştirir ve test eder. Görseller temsilîdir; tüm veriler kurgusaldır.",
+          "en": "Vira Ar-Ge develops and tests hardware and software prototypes in its own laboratory. Images are representative; all data is fictional.",
+          "ar": "تطوّر فيرا للأبحاث والتطوير نماذج العتاد والبرمجيات الأولية وتختبرها في مختبرها الخاص. الصور تمثيلية وجميع البيانات افتراضية."
         },
         "cta1": {
-          "tr": "Hizmetler",
-          "en": "Services",
-          "ar": "الخدمات"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Görüşme",
-          "en": "Meeting",
-          "ar": "اجتماع"
+          "tr": "Görüşme planla",
+          "en": "Book a meeting",
+          "ar": "احجز اجتماعًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Laboratuvar hizmetleri",
-          "en": "Laboratory services",
-          "ar": "خدمات المختبر"
+          "tr": "Laboratuvardan rakamlar",
+          "en": "Numbers from the laboratory",
+          "ar": "أرقام من المختبر"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1619,7 +1630,7 @@
           "etiket": {
             "tr": "Prototip projesi",
             "en": "Prototype projects",
-            "ar": "مشاريع النماذج"
+            "ar": "مشاريع نماذج أولية"
           },
           "aciklama": {
             "tr": "2020–2026",
@@ -1632,14 +1643,14 @@
           "sonek": "",
           "ikon": "science",
           "etiket": {
-            "tr": "Test hattı",
-            "en": "Test lines",
-            "ar": "خطوط الاختبار"
+            "tr": "Test istasyonu",
+            "en": "Test benches",
+            "ar": "محطات اختبار"
           },
           "aciklama": {
-            "tr": "Laboratuvarda",
-            "en": "In the laboratory",
-            "ar": "في المختبر"
+            "tr": "Kendi laboratuvarımızda",
+            "en": "In our own laboratory",
+            "ar": "في مختبرنا الخاص"
           }
         },
         {
@@ -1647,14 +1658,14 @@
           "sonek": "+",
           "ikon": "code",
           "etiket": {
-            "tr": "Firmware modülü",
-            "en": "Firmware modules",
-            "ar": "وحدات البرمجيات"
+            "tr": "Yazılım modülü",
+            "en": "Software modules",
+            "ar": "وحدات برمجية"
           },
           "aciklama": {
-            "tr": "Kendi yazılımımız",
-            "en": "Own software",
-            "ar": "برمجياتنا"
+            "tr": "Kendi kütüphanemiz",
+            "en": "Our own library",
+            "ar": "مكتبتنا الخاصة"
           }
         },
         {
@@ -1662,14 +1673,14 @@
           "sonek": "%",
           "ikon": "verified",
           "etiket": {
-            "tr": "İlk çevrim geçer",
-            "en": "First loop pass",
-            "ar": "اجتياز أول حلقة"
+            "tr": "İlk turda geçen test",
+            "en": "Tests passed in the first cycle",
+            "ar": "اختبارات اجتازت من الدورة الأولى"
           },
           "aciklama": {
-            "tr": "Test kaydiyle",
-            "en": "With test record",
-            "ar": "بسجل اختبار"
+            "tr": "Test kaydıyla (kurgusal değer)",
+            "en": "With test records (fictional figure)",
+            "ar": "بسجلات الاختبار (رقم افتراضي)"
           }
         }
       ],
@@ -1697,31 +1708,31 @@
         "badge": {
           "tr": "Yaptıklarımız",
           "en": "What we do",
-          "ar": "ما نفعله"
+          "ar": "ما نقوم به"
         },
         "title": {
-          "tr": "Laboratuvar hizmetleri",
-          "en": "Laboratory services",
-          "ar": "خدمات المختبر"
+          "tr": "Prototipten seriye hazırlığa",
+          "en": "From prototype to production readiness",
+          "ar": "من النموذج الأولي إلى الجاهزية للإنتاج"
         },
         "description": {
-          "tr": "Tasarımdan doğrulamaya dört hat.",
-          "en": "Four lines from design to validation.",
-          "ar": "أربعة خطوط من التصميم إلى التحقق."
+          "tr": "Tasarımdan doğrulamaya altı hizmet.",
+          "en": "Six services from design to validation.",
+          "ar": "ست خدمات من التصميم إلى التحقق."
         }
       },
       "data": [
         {
           "icon": "memory",
           "name": {
-            "tr": "Donanım prototip",
+            "tr": "Donanım prototipi",
             "en": "Hardware prototype",
-            "ar": "نموذج عتاد"
+            "ar": "نموذج عتاد أولي"
           },
           "description": {
-            "tr": "Devre tasarımı ve sınırlı üretim.",
-            "en": "Circuit design and limited production.",
-            "ar": "تصميم الدوائر والإنتاج المحدود."
+            "tr": "Devre tasarımı, kart çizimi ve sınırlı sayıda üretim.",
+            "en": "Circuit design, board layout and limited production runs.",
+            "ar": "تصميم الدوائر ومخطط البطاقات وإنتاج بكميات محدودة."
           }
         },
         {
@@ -1732,17 +1743,17 @@
             "ar": "تطوير البرمجيات"
           },
           "description": {
-            "tr": "Firmware ve yönetim arayüzü.",
-            "en": "Firmware and management interface.",
-            "ar": "البرمجيات固件 وواجهة الإدارة."
+            "tr": "Gömülü yazılım (firmware) ve yönetim arayüzü.",
+            "en": "Embedded software (firmware) and a management interface.",
+            "ar": "برمجيات مدمجة (فيرموير) وواجهة إدارة."
           }
         },
         {
           "icon": "science",
           "name": {
-            "tr": "Laboratuvar test",
-            "en": "Laboratory test",
-            "ar": "اختبار مختبري"
+            "tr": "Laboratuvar testi",
+            "en": "Laboratory testing",
+            "ar": "الاختبار المخبري"
           },
           "description": {
             "tr": "Dayanım, ısı ve sinyal testleri.",
@@ -1753,40 +1764,40 @@
         {
           "icon": "handshake",
           "name": {
-            "tr": "Müşteri desteği",
-            "en": "Customer support",
-            "ar": "دعم العملاء"
+            "tr": "Proje desteği",
+            "en": "Project support",
+            "ar": "دعم المشروع"
           },
           "description": {
-            "tr": "Geliştirme boyunca haftalık rapor.",
-            "en": "Weekly report throughout development.",
-            "ar": "تقرير أسبوعي طوال التطوير."
+            "tr": "Geliştirme boyunca haftalık ilerleme raporu.",
+            "en": "A weekly progress report throughout development.",
+            "ar": "تقرير تقدّم أسبوعي طوال مرحلة التطوير."
           }
         },
         {
           "icon": "verified",
           "name": {
-            "tr": "Sertifikasyon desteği",
-            "en": "Certification support",
-            "ar": "دعم الشهادات"
+            "tr": "Sertifikasyona hazırlık",
+            "en": "Certification readiness",
+            "ar": "التحضير للاعتماد"
           },
           "description": {
-            "tr": "Sınır ve güvenlik testine hazırlık.",
-            "en": "Preparation for boundary and security test.",
-            "ar": "التحضير لاختبار الحد والأمان."
+            "tr": "CE ve EMC gibi testlere hazırlık dokümantasyonu.",
+            "en": "Documentation to prepare for tests such as CE and EMC.",
+            "ar": "وثائق التحضير لاختبارات مثل CE وEMC."
           }
         },
         {
           "icon": "rocket_launch",
           "name": {
             "tr": "Seriye hazırlık",
-            "en": "Ready for mass",
-            "ar": "جاهز للإنتاج الجماعي"
+            "en": "Production readiness",
+            "ar": "الجاهزية للإنتاج"
           },
           "description": {
-            "tr": "Üretim planı ve BOM kontrolü.",
-            "en": "Production plan and BOM control.",
-            "ar": "خطة الإنتاج وضبط قائمة المكونات."
+            "tr": "Üretim planı ve malzeme listesi (BOM) kontrolü.",
+            "en": "Production plan and bill of materials (BOM) review.",
+            "ar": "خطة الإنتاج ومراجعة قائمة المواد (BOM)."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
+          "tr": "Çalışma yöntemi",
           "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "ar": "طريقة العمل"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Gereksinimden teslime dört adım",
+          "en": "Four steps from requirements to handover",
+          "ar": "أربع خطوات من المتطلبات إلى التسليم"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Her turda test raporuyla ilerleriz.",
+          "en": "We move forward with a test report at every cycle.",
+          "ar": "نتقدّم بتقرير اختبار في كل دورة."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1837,13 +1848,13 @@
           "year": "01",
           "title": {
             "tr": "Gereksinim",
-            "en": "Requirement",
-            "ar": "المتطلب"
+            "en": "Requirements",
+            "ar": "المتطلبات"
           },
           "text": {
-            "tr": "Hedef, sınır ve zaman planı belirlenir.",
-            "en": "Target, boundary and time plan are set.",
-            "ar": "يُحدد الهدف والحد وخطة الوقت."
+            "tr": "Hedef, sınırlar ve zaman planı birlikte belirlenir.",
+            "en": "Goals, constraints and the schedule are defined together.",
+            "ar": "تُحدَّد الأهداف والقيود والجدول الزمني معًا."
           }
         },
         {
@@ -1854,22 +1865,22 @@
             "ar": "النموذج الأولي"
           },
           "text": {
-            "tr": "İlk donanım/yazılım sürümü üretilir.",
-            "en": "The first hardware/software version is produced.",
-            "ar": "يُنتَج أول إصدار من العتاد والبرمجيات."
+            "tr": "İlk donanım ve yazılım sürümü üretilir.",
+            "en": "The first hardware and software version is built.",
+            "ar": "يُبنى أول إصدار من العتاد والبرمجيات."
           }
         },
         {
           "year": "03",
           "title": {
             "tr": "Test döngüsü",
-            "en": "Test loop",
-            "ar": "حلقة الاختبارات"
+            "en": "Test cycles",
+            "ar": "دورات الاختبار"
           },
           "text": {
-            "tr": "Her çevrimde test raporu paylaşıldı.",
-            "en": "A test report is shared in each loop.",
-            "ar": "يُشارك تقرير اختبار في كل حلقة."
+            "tr": "Her turda test raporu paylaşılır.",
+            "en": "A test report is shared after each cycle.",
+            "ar": "يُشارَك تقرير اختبار بعد كل دورة."
           }
         },
         {
@@ -1880,9 +1891,9 @@
             "ar": "التسليم"
           },
           "text": {
-            "tr": "Kod, çizim ve test raporu birlikte teslim.",
-            "en": "Code, drawings and test report are delivered together.",
-            "ar": "تُسلَّم الشيفرة والرسوم وتقرير الاختبار معًا."
+            "tr": "Kaynak kod, çizimler ve test raporu birlikte teslim edilir.",
+            "en": "Source code, drawings and the test report are handed over together.",
+            "ar": "تُسلَّم الشيفرة المصدرية والرسومات وتقرير الاختبار معًا."
           }
         }
       ],
@@ -1911,19 +1922,19 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Mühendislerimiz",
+          "en": "Our engineers",
+          "ar": "مهندسونا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Laboratuvardaki ekip",
+          "en": "The team in the laboratory",
+          "ar": "الفريق في المختبر"
         },
         "description": {
-          "tr": "Kurgusal demo profiller.",
-          "en": "Fictional demo profiles.",
-          "ar": "ملفات تجريبية افتراضية."
+          "tr": "Kurgusal örnek kadro.",
+          "en": "A fictional sample team.",
+          "ar": "فريق افتراضي للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -1937,9 +1948,9 @@
             "ar": "المهندس الرئيسي"
           },
           "bio": {
-            "tr": "Donanım ve güç devresi.",
-            "en": "Hardware and power circuit.",
-            "ar": "العتاد ودائرة الطاقة."
+            "tr": "Donanım ve güç devreleri.",
+            "en": "Hardware and power circuits.",
+            "ar": "العتاد ودوائر الطاقة."
           },
           "img": ""
         },
@@ -1951,23 +1962,23 @@
             "ar": "قائدة البرمجيات"
           },
           "bio": {
-            "tr": "Firmware ve iletişim protokolü.",
-            "en": "Firmware and communication protocol.",
-            "ar": "البرمجياتfirmware وبروتوكول الاتصال."
+            "tr": "Gömülü yazılım ve haberleşme protokolleri.",
+            "en": "Embedded software and communication protocols.",
+            "ar": "البرمجيات المدمجة وبروتوكولات الاتصال."
           },
           "img": ""
         },
         {
-          "name": "Oguz Kaya",
+          "name": "Oğuz Kaya",
           "role": {
             "tr": "Test mühendisi",
             "en": "Test engineer",
-            "ar": "مهندس الاختبارات"
+            "ar": "مهندس اختبار"
           },
           "bio": {
-            "tr": "Isı ve dayanım testi.",
-            "en": "Heat and durability test.",
-            "ar": "اختبارات الحرارة والتحمُّل."
+            "tr": "Isı ve dayanım testleri.",
+            "en": "Heat and durability tests.",
+            "ar": "اختبارات الحرارة والتحمل."
           },
           "img": ""
         }
@@ -2003,14 +2014,14 @@
           "ar": "تقييمات العملاء"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Projeyi teslim alanlar ne diyor?",
+          "en": "What clients say after handover",
+          "ar": "ماذا يقول العملاء بعد التسليم؟"
         },
         "description": {
-          "tr": "Kurgusal demo yorumlar.",
-          "en": "Fictional demo reviews.",
-          "ar": "تقييمات تجريبية افتراضية."
+          "tr": "Kurgusal örnek yorumlar.",
+          "en": "Fictional sample reviews.",
+          "ar": "آراء افتراضية للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -2020,15 +2031,15 @@
           "name": "Mehmet D.",
           "role": {
             "tr": "Üretici firma",
-            "en": "Producer firm",
-            "ar": "شركة منتجة"
+            "en": "Manufacturing company",
+            "ar": "شركة مصنِّعة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Her çevrimde raporla ilerledi; sürpriz yok.",
-            "en": "Progress with a report at each loop; no surprise.",
-            "ar": "تقدّم بتقرير في كل حلقة؛ لا مفاجآت."
+            "tr": "Her turda raporla ilerledi; sürpriz yaşamadık.",
+            "en": "Work moved forward with a report at every cycle; no surprises.",
+            "ar": "سار العمل بتقرير في كل دورة دون مفاجآت."
           }
         },
         {
@@ -2042,7 +2053,7 @@
           "img": "",
           "text": {
             "tr": "Prototip üç ayda doğrulandı.",
-            "en": "Prototype validated in three months.",
+            "en": "The prototype was validated in three months.",
             "ar": "تم التحقق من النموذج الأولي في ثلاثة أشهر."
           }
         },
@@ -2050,15 +2061,15 @@
           "name": "Burak T.",
           "role": {
             "tr": "KOBİ sahibi",
-            "en": "SME owner",
-            "ar": "صاحب مقاول"
+            "en": "Small business owner",
+            "ar": "صاحب شركة صغيرة"
           },
           "rating": 4,
           "img": "",
           "text": {
             "tr": "BOM kontrolü maliyeti net tuttu.",
-            "en": "BOM control kept the cost clear.",
-            "ar": "ضبط قائمة المكونات يبقي التكلفة واضحة."
+            "en": "The BOM review kept costs clear.",
+            "ar": "أبقت مراجعة قائمة المواد التكلفة واضحة."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "4px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Laboratuvarda neler yapılır?",
+          "en": "What happens in the laboratory?",
+          "ar": "ماذا يحدث في المختبر؟"
         },
         "title": {
-          "tr": "Laboratuvar hizmetleri",
-          "en": "Laboratory services",
-          "ar": "خدمات المختبر"
+          "tr": "Hizmet alanlarımız",
+          "en": "Our service areas",
+          "ar": "مجالات خدماتنا"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,16 +2137,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Donanım prototip",
+            "tr": "Donanım prototipi",
             "en": "Hardware prototype",
-            "ar": "نموذج عتاد"
+            "ar": "نموذج عتاد أولي"
           },
           "metin": {
-            "tr": "Devre tasarımı ve sınırlı üretim.",
-            "en": "Circuit design and limited production.",
-            "ar": "تصميم الدوائر والإنتاج المحدود."
+            "tr": "Devre tasarımı, kart çizimi ve sınırlı sayıda üretim.",
+            "en": "Circuit design, board layout and limited production runs.",
+            "ar": "تصميم الدوائر ومخطط البطاقات وإنتاج بكميات محدودة."
           },
-          "img": "saas-rapor.webp",
+          "img": "elektronik-servis.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2150,9 +2161,9 @@
             "ar": "تطوير البرمجيات"
           },
           "metin": {
-            "tr": "Firmware ve yönetim arayüzü.",
-            "en": "Firmware and management interface.",
-            "ar": "البرمجيات固件 وواجهة الإدارة."
+            "tr": "Gömülü yazılım (firmware) ve yönetim arayüzü.",
+            "en": "Embedded software (firmware) and a management interface.",
+            "ar": "برمجيات مدمجة (فيرموير) وواجهة إدارة."
           },
           "img": "saas-dizustu.webp",
           "alt": {
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Laboratuvar test",
-            "en": "Laboratory test",
-            "ar": "اختبار مختبري"
+            "tr": "Laboratuvar testi",
+            "en": "Laboratory testing",
+            "ar": "الاختبار المخبري"
           },
           "metin": {
             "tr": "Dayanım, ısı ve sinyal testleri.",
             "en": "Durability, heat and signal tests.",
             "ar": "اختبارات التحمل والحرارة والإشارة."
           },
-          "img": "saas-ekip-alani.webp",
+          "img": "sanayi-kalite-lab.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "4px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Çalıştığımız sektörler",
+          "en": "Sectors we work with",
+          "ar": "القطاعات التي نعمل معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal sektör ve firma adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional sector and company names; they do not belong to a real organisation.",
+          "ar": "أسماء قطاعات وشركات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Prototip maliyeti nedir?",
+            "en": "What does a prototype cost?",
+            "ar": "ما تكلفة النموذج الأولي؟"
+          },
+          "answer": {
+            "tr": "Kapsama göre teklifle belirlenir; sitede fiyat verilmez.",
+            "en": "It is set by quote according to scope; no prices are listed on this site.",
+            "ar": "تُحدَّد بعرض سعر حسب النطاق، ولا تُذكر الأسعار في هذا الموقع."
+          },
           "soru": {
             "tr": "Prototip maliyeti nedir?",
-            "en": "What is the prototype cost?",
-            "ar": "ما تكلفة النموذج الأولي?"
+            "en": "What does a prototype cost?",
+            "ar": "ما تكلفة النموذج الأولي؟"
           },
           "cevap": {
-            "tr": "Kapsama göre teklifle belirlenir; demo metni fiyat vermez.",
-            "en": "It is set by a quote according to scope; this demo text gives no price.",
-            "ar": "تُحدَّد بتعبير سعر حسب النطاق؛ ولا يعطي هذا النص التجريبي سعرًا."
+            "tr": "Kapsama göre teklifle belirlenir; sitede fiyat verilmez.",
+            "en": "It is set by quote according to scope; no prices are listed on this site.",
+            "ar": "تُحدَّد بعرض سعر حسب النطاق، ولا تُذكر الأسعار في هذا الموقع."
           }
         },
         {
-          "soru": {
-            "tr": "Sitedeki görseller ve veriler gerçek midir?",
-            "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
-          },
-          "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
-          }
-        },
-        {
-          "soru": {
-            "tr": "Gizlilik sözleşmesi yapıyor musunuz?",
+          "question": {
+            "tr": "Gizlilik sözleşmesi (NDA) imzalıyor musunuz?",
             "en": "Do you sign an NDA?",
-            "ar": "هل توقَّعون اتفاقية سرية?"
+            "ar": "هل توقّعون اتفاقية سرية (NDA)؟"
+          },
+          "answer": {
+            "tr": "Evet; proje başlamadan önce karşılıklı gizlilik sözleşmesi imzalanır.",
+            "en": "Yes; a mutual NDA is signed before the project starts.",
+            "ar": "نعم؛ يُوقَّع اتفاق سرية متبادل قبل بدء المشروع."
+          },
+          "soru": {
+            "tr": "Gizlilik sözleşmesi (NDA) imzalıyor musunuz?",
+            "en": "Do you sign an NDA?",
+            "ar": "هل توقّعون اتفاقية سرية (NDA)؟"
           },
           "cevap": {
-            "tr": "Evet; proje öncesi karşılıklılık sözleşmesi.",
-            "en": "Yes; a mutual agreement before the project.",
-            "ar": "نعم؛ اتفاق متبادل قبل المشروع."
+            "tr": "Evet; proje başlamadan önce karşılıklı gizlilik sözleşmesi imzalanır.",
+            "en": "Yes; a mutual NDA is signed before the project starts.",
+            "ar": "نعم؛ يُوقَّع اتفاق سرية متبادل قبل بدء المشروع."
           }
         },
         {
+          "question": {
+            "tr": "Seri üretim de yapıyor musunuz?",
+            "en": "Do you also do mass production?",
+            "ar": "هل تنفّذون الإنتاج بكميات كبيرة أيضًا؟"
+          },
+          "answer": {
+            "tr": "Hayır; doğrulama ve üretime hazırlık yaparız, seri üretim iş ortaklarıyla yürür (kurgusal bilgi).",
+            "en": "No; we do validation and production readiness, and series production runs with partners (fictional information).",
+            "ar": "لا؛ نقوم بالتحقق والتحضير للإنتاج، ويتم الإنتاج الكمي مع شركاء (معلومات افتراضية)."
+          },
           "soru": {
-            "tr": "Seri üretim de yapılıyor mu?",
-            "en": "Is mass production also done?",
-            "ar": "هل يُنفَّذ الإنتاج الجماعي أيضًا?"
+            "tr": "Seri üretim de yapıyor musunuz?",
+            "en": "Do you also do mass production?",
+            "ar": "هل تنفّذون الإنتاج بكميات كبيرة أيضًا؟"
           },
           "cevap": {
-            "tr": "Yalnız doğrulama; üretim dış ortakla yürür (demo bilgi).",
-            "en": "Only validation; production runs with an external partner (demo info).",
-            "ar": "التحقق فقط؛ الإنتاج يدار مع شريك خارجي (معلومات تجريبية."
+            "tr": "Hayır; doğrulama ve üretime hazırlık yaparız, seri üretim iş ortaklarıyla yürür (kurgusal bilgi).",
+            "en": "No; we do validation and production readiness, and series production runs with partners (fictional information).",
+            "ar": "لا؛ نقوم بالتحقق والتحضير للإنتاج، ويتم الإنتاج الكمي مع شركاء (معلومات افتراضية)."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
+          "soru": {
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
+          },
+          "cevap": {
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "4px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Prototip görüşmesi planlayın",
+          "en": "Plan a prototype meeting",
+          "ar": "خطّط لاجتماع حول النموذج الأولي"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Projenizi kısaca yazın; iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Describe your project briefly; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "صف مشروعك باختصار ونردّ خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا تُحفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Vira Ar-Ge",
@@ -2421,14 +2472,14 @@
           "ar": "Vira Ar-Ge"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "address": {
           "tr": "Teknopark B Blok No: 7, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "7 Technopark Block B, Sahinbey, Gaziantep (fictional address)",
-          "ar": "7 برج تقنوبارك ب، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "تكنوبارك، المبنى ب، رقم 7، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 022 02 02",
         "whatsapp": "903420220202",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Prototip görüşmesi",
+              "en": "Prototype meeting",
+              "ar": "اجتماع حول نموذج أولي"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Test talebi",
+              "en": "Test request",
+              "ar": "طلب اختبار"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Gizlilik sözleşmesi",
+              "en": "NDA request",
+              "ar": "اتفاقية سرية"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Vira Ar-Ge"
         },
         "description": {
-          "tr": "Vira ArGe 2018de kuruldu; 6 kişilik bir ekiple donanım-yazılım prototipleri geliştirir. Bu bir demo sayfasıdır; tüm adlar ve rakamlar kurgusaldır.",
-          "en": "Vira rnd was founded in 2018; a team of six develops hardware-software prototypes. This is a demo page and all names and figures are fictional.",
-          "ar": "تأسست فيرا عام 2018؛ فريق من ستة أشخاص ينمّي نماذج العتاد والبرمجيات. هذه صفحة تجريبية وجميع الأسماء والأرقام افتراضية."
+          "tr": "Vira Ar-Ge 2018’de kuruldu; altı kişilik ekibiyle donanım ve yazılım prototipleri geliştirir. Bu sayfa demodur; ad ve rakamlar kurgusaldır.",
+          "en": "Vira Ar-Ge was founded in 2018; its team of six develops hardware and software prototypes. This page is a demo; names and figures are fictional.",
+          "ar": "تأسست فيرا للأبحاث والتطوير عام 2018، ويطوّر فريقها المكوّن من ستة أشخاص نماذج أولية للعتاد والبرمجيات. هذه الصفحة تجريبية والأسماء والأرقام افتراضية."
         },
         "name2": {
-          "tr": "Tek odada",
-          "en": "In one room",
-          "ar": "في غرفة واحدة"
+          "tr": "Tek laboratuvar",
+          "en": "One laboratory",
+          "ar": "مختبر واحد"
         },
         "spot2": {
-          "tr": "Tasarım, test ve üretim kontrolü aynı laboratuvarda.",
-          "en": "Design, test and production control in the same laboratory.",
-          "ar": "التصميم والاختبار وضبط الإنتاج في المختبر نفسه."
+          "tr": "Tasarım, test ve üretim kontrolü aynı laboratuvarda yürür.",
+          "en": "Design, testing and production checks all happen in the same laboratory.",
+          "ar": "التصميم والاختبار وفحوص الإنتاج كلها في المختبر نفسه."
         },
-        "icon2": "workspace_premium",
+        "icon2": "science",
         "name3": {
           "tr": "Rapor disiplini",
-          "en": "Report discipline",
+          "en": "Reporting discipline",
           "ar": "انضباط التقارير"
         },
         "spot3": {
-          "tr": "Her haftada ilerleme raporu; kararlar belgeyle.",
-          "en": "A progress report each week; decisions are documented.",
-          "ar": "تقرير تقدم كل أسبوع؛ القرارات موثقة."
+          "tr": "Her hafta ilerleme raporu verilir; kararlar belgelenir.",
+          "en": "A progress report is issued every week and decisions are documented.",
+          "ar": "يُصدر تقرير تقدّم كل أسبوع وتُوثَّق القرارات."
         },
         "icon3": "fact_check",
-        "img": "saas-zaman.webp",
+        "img": "sanayi-ekip-saha.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2739,7 +2791,7 @@
         "address": {
           "tr": "Teknopark B Blok No: 7, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "7 Technopark Block B, Sahinbey, Gaziantep (fictional address)",
-          "ar": "7 برج تقنوبارك ب، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "تكنوبارك، المبنى ب، رقم 7، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cum 09:00 – 18:00",
+          "en": "Mon–Fri 09:00 – 18:00",
+          "ar": "الاثنين–الجمعة 09:00 – 18:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,9 +2899,9 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "4px",
         "title": {
-          "tr": "Prototip için görüşme",
-          "en": "Meeting for a prototype",
-          "ar": "اجتماع للنموذج الأولي"
+          "tr": "Prototip için görüşme planlayın",
+          "en": "Plan a meeting for your prototype",
+          "ar": "خطّط لاجتماع بشأن نموذجك الأولي"
         },
         "text": {
           "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
@@ -2893,7 +2945,7 @@
         "waMessage": {
           "tr": "Merhaba, Vira Ar-Ge ile iletişime geçmek istiyorum.",
           "en": "Hello, I would like to get in touch with Vira Ar-Ge.",
-          "ar": "مرحبًا، أودّ التواصل مع Vira Ar-Ge."
+          "ar": "مرحبًا، أودّ التواصل مع فيرا للأبحاث والتطوير."
         },
         "img": "",
         "alt": {
@@ -2951,7 +3003,7 @@
         "about": {
           "tr": "Vira Ar-Ge demo temadır; içerik kurgusaldır.",
           "en": "Vira Ar-Ge is a demo theme; the content is fictional.",
-          "ar": "قالب عرض تجريبي (Vira Ar-Ge)؛ المحتوى افتراضي."
+          "ar": "فيرا للأبحاث والتطوير قالب تجريبي؛ المحتوى افتراضي."
         },
         "nlShow": true,
         "nlGonderim": "mailto",
@@ -3056,7 +3108,7 @@
         "address": {
           "tr": "Teknopark B Blok No: 7, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "7 Technopark Block B, Sahinbey, Gaziantep (fictional address)",
-          "ar": "7 برج تقنوبارك ب، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "تكنوبارك، المبنى ب، رقم 7، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 022 02 02",
         "email": "bilgi@vira-arge.example",

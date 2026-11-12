@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Tasarımdan doğrulamaya dört hat.",
-    "en": "Four lines from design to validation.",
-    "ar": "أربعة خطوط من التصميم إلى التحقق."
+    "tr": "Tasarımdan doğrulamaya altı hizmet.",
+    "en": "Six services from design to validation.",
+    "ar": "ست خدمات من التصميم إلى التحقق."
   },
   "keyword": {
     "tr": "Yaptıklarımız",
     "en": "What we do",
-    "ar": "ما نفعله"
+    "ar": "ما نقوم به"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:29.432Z",
-  "update": "2026-11-05T23:44:26.676Z"
+  "update": "2026-11-12T07:35:10.299Z"
 }
