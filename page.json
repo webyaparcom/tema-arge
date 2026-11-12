@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Tasarımdan doğrulamaya dört hat.",
-        "en": "Four lines from design to validation.",
-        "ar": "أربعة خطوط من التصميم إلى التحقق."
+        "tr": "Tasarımdan doğrulamaya altı hizmet.",
+        "en": "Six services from design to validation.",
+        "ar": "ست خدمات من التصميم إلى التحقق."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Donanım-yazılım prototip geliştirme.",
-        "en": "Hardware-software prototype development.",
-        "ar": "تطوير نماذج العتاد والبرمجيات."
+        "tr": "Donanım ve yazılım prototipi geliştirme.",
+        "en": "Hardware and software prototype development.",
+        "ar": "تطوير النماذج الأولية للعتاد والبرمجيات."
       }
     },
     {

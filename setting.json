@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Donanım ve yazılım prototip geliştirme; görseller temsilîdir.",
-    "en": "Hardware and software prototype development; images are representative.",
-    "ar": "تطوير نماذج أولية من العتاد والبرمجيات؛ الصور تمثيلية."
+    "tr": "Donanım ve yazılım prototipi geliştirme, laboratuvar testi ve seriye hazırlık. Görseller temsilîdir.",
+    "en": "Hardware and software prototype development, laboratory testing and production readiness. Images are representative.",
+    "ar": "تطوير النماذج الأولية للعتاد والبرمجيات والاختبار المخبري والتحضير للإنتاج؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "arı-ge, prototip, laboratuvar",
-    "en": "rnd, prototype, laboratory",
-    "ar": "أبحاث وتطوير، نموذج أولي، مختبر"
+    "tr": "Ar-Ge, prototip, laboratuvar, donanım, yazılım",
+    "en": "R&D, prototype, laboratory, hardware, software",
+    "ar": "أبحاث وتطوير، نموذج أولي، مختبر، عتاد، برمجيات"
   },
   "category": "Kurumsal",
   "name": "Vira Ar-Ge",

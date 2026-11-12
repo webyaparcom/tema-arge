@@ -1,7 +1,7 @@
 {
   "name": "Vira Ar-Ge",
   "short_name": "Vira Ar-Ge",
-  "description": "Donanım ve yazılım prototip geliştirme; görseller temsilîdir.",
+  "description": "Donanım ve yazılım prototipi geliştirme, laboratuvar testi ve seriye hazırlık. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

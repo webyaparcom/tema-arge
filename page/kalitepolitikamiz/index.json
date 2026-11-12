@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Test kaydiyle kabul; her çevrim kayıt altında.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Acceptance with a test record; each loop is recorded.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>القبول بسجل اختبار؛ كل حلقة مسجلة.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Kabul test kaydıyla yapılır; her tur kayıt altına alınır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Acceptance is based on test records; every cycle is recorded.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>يتم القبول بناءً على سجلات الاختبار، وتُسجَّل كل دورة.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:18.087Z",
-  "update": "2026-11-05T23:44:26.700Z",
+  "update": "2026-11-12T07:35:10.325Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",
